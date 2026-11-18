@@ -1,0 +1,266 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi Portafolio | Desarrollador Java</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Space+Grotesk:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+
+  </head>
+  <body>
+
+    <!-- Decorativos -->
+    <div class="bg-glow bg-glow-one"></div>
+    <div class="bg-glow bg-glow-two"></div>
+    <div class="bg-glow bg-glow-three"></div>
+    <div class="bg-glow bg-glow-four"></div>
+
+    <!-- Encabezado -->
+    <header class="header">
+
+      <nav class="nav container">
+        
+        <!-- Logo -->
+        <a class="nav-logo" href="">&lt/VAGS <span class="text-accent">DEV</span>&gt</a>
+
+        <!-- Menú desplegable -->
+        <div class="nav-toggle" id="nav-toggle">
+          <span class="nav-toggle-icon"></span>
+        </div>
+
+        <!-- Menú de navegación -->
+        <ul class="nav-menu" id="nav-menu">
+          <li class="nav-item"><a class="nav-link" href="#home">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Proyectos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">Sobre mi</a></li>
+          <li class="nav-item"><a class="nav-link" href="#tech">Tecnologías</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contacto</a></li>
+        </ul>
+        
+      </nav>
+
+    </header>
+
+    <!-- Contenido -->
+    <main>
+
+      <!-- Inicio -->
+      <section class="hero section container" id="home">
+      
+        <div class="hero-content animate-on-scroll">
+          
+          <p class="hero-greeting">
+            Hola, soy
+          </p>
+
+          <h1 class="hero-title">
+            Víctor Antonio Gómez Serna
+            <br>
+            <span class="text-gradient">Desarrollador Java</span>
+          </h1>
+
+          <p class="hero-description">
+            Enfocado en crear aplicaciones web. Me apasiona escribir código limpio, 
+            resolver problemas complejos y construir soluciones que realmente aporten valor.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#projects">Ver proyectos</a>
+            <a class="btn btn-secondary" href="./assets/docs/VAGS_CV.pdf" download>Descargar CV</a>
+          </div>
+
+        </div>
+
+        <div class="hero-image-container animate-on-scroll">
+
+          <img class="hero-image" src="./assets/images/img-vags.jpeg" alt="Fotografía de perfil">
+          
+          <div class="hero-decorative-star"></div>
+
+        </div>
+      
+      </section>
+
+      <!-- Proyectos -->
+      <section class="proyects section container" id="projects">
+
+        <h2 class="section-title animate-on-scroll">
+          Mis 
+          <span class="text-accent">Proyectos</span>
+        </h2>
+
+        <p class="section-subtitle animate-on-scroll">Una sección de mis trabajos más recientes.</p>
+
+        <!-- Tarjetas de proyectos -->
+        <div class="proyects-container" id="projects-container"></div>
+
+      </section>
+
+      <!-- Sobre mi -->
+      <section class="about section container" id="about">
+
+        <h2 class="section-title animate-on-scroll">
+          Sobre 
+          <span class="text-accent">Mi</span>
+        </h2>
+
+        <h3 class="about-subtitle">
+          Un poco sobre mi trayectoria
+        </h3>
+
+        <div class="about-content glass-panel animate-on-scroll">
+          
+          <p class="about-text">
+            Soy un desarrollador de software con especial interés en el ecosistema Java y
+            Spring Boot, Disfruto enfrentarme a retos y trabajar en equipo. Mi fuerte es el
+            backend pero también tengo solidos conocimientos en el frontend, lo que me permite
+            construir aplicaciones completas, funcionales y visualmente atractivas. Siempre
+            estoy aprendiendo algo nuevo para mejorar mi flujo de trabajo.
+          </p>
+        
+        </div>
+
+      </section>
+
+      <!-- Tecnologías -->
+      <section class="tech section container" id="tech">
+        
+        <h2 class="section-title animate-on-scroll">
+          Mis 
+          <span class="text-accent">Tecnologías</span>
+        </h2>
+      
+        <p class="section-subtitle animate-on-scroll">
+          Herramientas y lenguajes con los que trabajo a diario
+        </p>
+
+        <div class="tech-content">
+
+          <div class="tech-category glass-panel animate-on-scroll">
+            <h3 class="tech-category-title">Backend</h3>
+            <div class="tech-skills">
+              <span class="skill-tag">Java</span>
+              <span class="skill-tag">Sping Boot</span>
+            </div>
+          </div>
+
+          <div class="tech-category glass-panel animate-on-scroll">
+            <h3 class="tech-category-title">Frontend</h3>
+            <div class="tech-skills">
+              <span class="skill-tag">HTML</span>
+              <span class="skill-tag">CSS</span>
+              <span class="skill-tag">JavaScript</span>
+              <span class="skill-tag">Bootstrap</span>
+            </div>
+          </div>
+
+          <div class="tech-category glass-panel animate-on-scroll">
+            <h3 class="tech-category-title">Herramientas</h3>
+            <div class="tech-skills">
+              <span class="skill-tag">Git y Github</span>
+              <span class="skill-tag">Docker</span>
+              <span class="skill-tag">Postman</span>
+              <span class="skill-tag">WordPress</span>
+            </div>
+          </div>
+
+          <div class="tech-category glass-panel animate-on-scroll">
+            <h3 class="tech-category-title">Bases de datos</h3>
+            <div class="tech-skills">
+              <span class="skill-tag">PostgreSQL</span>
+              <span class="skill-tag">MySQL</span>
+            </div>
+          </div>
+
+          <div class="tech-category glass-panel animate-on-scroll">
+            <h3 class="tech-category-title">Diseño y Gestión de tareas</h3>
+            <div class="tech-skills">
+              <span class="skill-tag">Figma</span>
+              <span class="skill-tag">Trello</span>
+              <span class="skill-tag">ClickUp</span>
+            </div>
+          </div>
+
+        </div>
+
+      </section>
+
+      <!-- Contacto -->
+      <section class="contact section container" id="contact">
+
+        <h2 class="section-title animate-on-scroll">
+          Hablemos de 
+          <span class="text-accent">Trabajo</span>
+        </h2>
+
+        <p class="section-subtitle animate-on-scroll">
+          ¿Tienes un proyecto en mente? ¡Escribeme!
+        </p>
+
+        <form class="contact-form glass-panel animate-on-scroll" id="contact-form">
+
+          <div class="form-group">
+            <label class="form-label" for="name">Nombre</label>
+            <input class="form-input" type="text" id="name" required>
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="email">Correo Electrónico</label>
+            <input class="form-input" type="email" id="email" required>
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="message">Mensaje</label>
+            <textarea class="form-input" id="message" rows="5" required></textarea>
+          </div>
+          <div class="message-container">
+            <p class="message">
+              ¡Mensaje enviado con éxito! me podré en contacto contigo lo antes posible.
+            </p>
+          </div>
+          <button class="btn btn-primary" id="btn-form" type="submit">
+            Enviar mensaje
+          </button>
+
+        </form>
+
+        <div class="contact-socials animate-on-scroll">
+          
+          <p class="contact-socials-text">
+            Encuentrame en:
+          </p>
+
+          <div class="contact-socials-links">
+            <a class="social-link" href="https://github.com/VictorSerna06" target="_blank">
+              GitHub
+            </a>
+            <a class="social-link" href="https://www.linkedin.com/in/vic-ant-gom-ser/" target="_blank">
+              LinkedIn
+            </a>
+          </div>
+
+        </div>
+
+      </section>
+
+    </main>
+
+    <!-- Pie de página -->
+    <footer class="footer-container">
+      <p>
+        &copy; 2026 Víctor Antonio Gómez Serna. Todos los derechos reservados.
+      </p>
+    </footer>
+
+    <!-- Script -->
+    <script src="script.js"></script>
+  </body>
+</html>
