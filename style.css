@@ -246,6 +246,14 @@ body {
     width: 100%;
 }
 
+.nav-link.active{
+    color: var(--text-main);
+}
+
+.nav-link.active::after {
+    width: 100%;
+}
+
 /* Inicio */
 .hero{
     display: flex;
@@ -1099,7 +1107,7 @@ body {
     }
 
     .experience-item::before{
-        left: -22px;
+        left: -25px;
         width: 10px;
         height: 10px;
     }
