@@ -23,7 +23,7 @@ export const techs = [
         "title": "Bases de datos",
         "techs": [
             "MySQL",
-            "PostgrSQL"
+            "PostgreSQL"
         ]
     },
     {
@@ -32,7 +32,7 @@ export const techs = [
             "Git y Github",
             "Docker",
             "Postman",
-            "Wordpress"
+            "WordPress"
         ]
     },
     {

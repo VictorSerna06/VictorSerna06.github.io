@@ -2,7 +2,7 @@ export const posts = [
     {
         "date": "Noviembre 2026",
         "title": "Desarrollador Java Full Stack",
-        "description": "Bootcamp intensivo de 12 semanas impartido por Generarion México. Cubrió desarrollo Full Stack con Java, Spring Boot, HTML, CSS y JavaScript, con proyectos prácticos en equipo."
+        "description": "Bootcamp intensivo de 12 semanas impartido por Generarion México. Cubrió el desarrollo Full Stack con Java, Spring Boot, HTML, CSS y JavaScript, con proyectos prácticos en equipo."
     },
     {
         "date": "Octubre 2026",
@@ -12,6 +12,6 @@ export const posts = [
     {
         "date": "Diciembre 2024",
         "title": "Java desde 0",
-        "description": "Curso completo de Udemy que cubre desde lo básico hasta colecciones, excepciones, Spring Boot, hasta la integración con BD."
+        "description": "Curso completo de Udemy que cubre desde lo básico: colecciones, excepciones, Spring Boot, hasta la integración con BD."
     }
 ]
